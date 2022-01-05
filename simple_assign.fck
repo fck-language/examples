@@ -1,0 +1,8 @@
+#!en
+
+## :: is the default assignment operator
+int five :: 5
+## :> assigns a value and then returns that value
+## the variable assignment happens before returning the variable
+print(float five_f :> 5)
+

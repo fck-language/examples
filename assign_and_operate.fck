@@ -1,0 +1,13 @@
+#!en
+
+int eg :: 10
+## Putting an operator inside an assignment lets us shorten
+## an assignment that uses itself
+eg :*: 2
+
+## eg is now 20
+## this is the same as writing eg :: eg * 2
+
+print(eg :+> 3)
+## eg is now 23
+
